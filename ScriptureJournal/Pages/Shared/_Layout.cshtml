@@ -20,19 +20,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-page="/Scriptures/Index" class="navbar-brand">Scripture Journal</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-page="/Index">Home</a></li>
-                    <li><a asp-page="/About">About</a></li>
-                </ul>
+                <a asp-page="/Scriptures/Index" class="navbar-brand" id="journalTitle">Scripture Journal</a>
             </div>
         </div>
     </nav>
@@ -43,7 +31,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - ScriptureJournal</p>
+            <p>&copy; 2018 David Stoddard- Scripture Journal</p>
         </footer>
     </div>
 

@@ -17,17 +17,48 @@ body {
   padding-right: 15px;
 }
 
-
 h1, h2, h3, h4, h5 {
   font-family: 'Noto Serif', serif;
 }
 
 h1 {
+  font-size: 5rem;
   margin-top: 3.5rem;
 }
 
+#journalTitle {
+  color: #ffffff;
+}
+
+.table td, .table th {
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+input[type=submit], input[type=submit], button {
+  font-weight: bold;
+  color: #ffffff;
+  padding: .8rem;
+  border-radius: 3px;
+  border: none;
+  background: #486397;
+}
+
+button a, button a:hover {
+  color: #ffffff;
+  text-decoration: none
+}
+
 header {
-  margin-bottom: 5.5rem;
+  margin-bottom: 6rem;
+  text-align: center;
 }
 
 .subHeader {
