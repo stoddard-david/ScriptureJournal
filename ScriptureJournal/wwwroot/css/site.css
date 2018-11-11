@@ -42,18 +42,18 @@ h1 {
   background-color: #ddd;
 }
 
-input[type=submit], input[type=submit], button {
+a.button, a.button:hover {
+  color: #ffffff;
+  text-decoration: none
+}
+
+input[type=submit], input[type=submit], button, a.button {
   font-weight: bold;
   color: #ffffff;
   padding: .8rem;
   border-radius: 3px;
   border: none;
   background: #486397;
-}
-
-button a, button a:hover {
-  color: #ffffff;
-  text-decoration: none
 }
 
 header {
